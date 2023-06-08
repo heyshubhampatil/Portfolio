@@ -1,0 +1,133 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #02001b;
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 80px;
+  background-color: #0c0a34;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  list-style: none;
+  margin: 0px 23px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+nav ul li a:hover {
+  color: rgb(157, 157, 224);
+  transition: 0.3s;
+}
+
+.left {
+  font-size: 1.5rem;
+}
+
+main .body-temp {
+  text-align: center;
+  margin-top: 45px;
+}
+
+main .body-temp h3 {
+  font-size: 22px;
+  font-weight: normal;
+}
+
+main .body-temp p {
+  margin-top: 6px;
+  font-size: 16px;
+  font-style: italic;
+}
+
+main .body-form {
+  border: 3px solid #b3b3b3;
+  width: 500px;
+  display: grid;
+  margin: 45px auto 65px auto;
+  text-align: center;
+}
+
+.body-form .contact-form-text {
+  display: block;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 2px;
+  margin: 35px auto auto auto;
+  width: 285px;
+}
+
+.body-form .contact-form-btn {
+  background-color: #0c0a34;
+  color: #fff;
+  padding: 12px 55px;
+  cursor: pointer;
+  border: none;
+  border-radius: 50px;
+  margin: 35px 0;
+}
+
+.body-form .contact-form-btn:hover{
+  color: rgb(157, 157, 224);
+  transition: 0.3s;
+}
+
+footer {
+  background-color: #0c0a34;
+}
+
+.footer {
+  display: flex;
+  padding: 50px 0px;
+  justify-content: space-around;
+}
+
+.footer ul {
+  list-style: none;
+}
+
+.footer li {
+  margin: 6px 0px;
+}
+
+.footer a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  color: rgb(157, 157, 224);
+  transition: 0.3s;
+}
+
+footer img {
+  margin: 20px 10px 0 18px;
+  width: 25px;
+  justify-content: center;
+}
+
+footer .footer-Second ul {
+  margin-top: 42px;
+}
+
+footer .copyright {
+  text-align: center;
+  padding-bottom: 8px;
+}
